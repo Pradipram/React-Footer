@@ -14,9 +14,9 @@ A customizable React component for displaying a footer with dynamic website name
 Install the component package via npm or yarn:
 
 ```bash
-npm install @p__readip/react-footer
+npm install @p__radip/react-footer
 # or
-yarn add @p__readip/react-footer
+yarn add @p__radip/react-footer
 
 ```
 
@@ -44,7 +44,7 @@ Import the Footer component and use it in your React application:
 
 ```javascript
 import React from "react";
-import { Footer } from "@p__readip/react-footer";
+import { Footer } from "@p__radip/react-footer";
 
 const App = () => {
     return (
