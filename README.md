@@ -3,10 +3,6 @@
 A customizable React component for displaying a footer with dynamic website name, custom classes, and styles.
 
 
-
-
-
-
 ## Features
 
 - **Dynamic Content**: Display the current year and website name dynamically.
@@ -18,9 +14,9 @@ A customizable React component for displaying a footer with dynamic website name
 Install the component package via npm or yarn:
 
 ```bash
-npm install react-footer
+npm install @p__readip/react-footer
 # or
-yarn add react-footer
+yarn add @p__readip/react-footer
 
 ```
 ## Peer Dependencies
@@ -45,7 +41,7 @@ Import the Footer component and use it in your React application:
 
 ```javascript
 import React from "react";
-import Footer from "your-footer-package-name";
+import {Footer} from "@p__readip/react-footer";
 
 const App = () => {
     return (
@@ -58,13 +54,6 @@ const App = () => {
 export default App;
 
 ```
-#### props and their definition
-|Props |Function|
-|:----:|:------:|
-|bg|change background image|
-|onValueChange|handle user input e.g. email and password|
-|handleSubmit|handle user sign-in| 
-
 
 ## Props
 

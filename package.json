@@ -1,5 +1,5 @@
 {
-    "name": "react-footer",
+    "name": "@p__readip/react-footer",
     "version": "1.0.0",
     "description": "This is a npm package for adding footer in your react-app",
     "main": "dist/index.js",
@@ -7,6 +7,17 @@
     "author": "Pradip Ram",
     "license": "MIT",
     "private": false,
+    "keywords": [
+        "react",
+        "footer",
+        "react-footer",
+        "footer-component",
+        "component",
+        "ui",
+        "typescript",
+        "scss",
+        "inline-styles"
+    ],
     "dependencies": {
         "@types/react": "^18.3.3",
         "@types/react-dom": "^18.3.0",
