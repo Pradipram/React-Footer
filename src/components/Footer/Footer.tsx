@@ -25,7 +25,7 @@ const Footer: React.FC<FooterProps> = ({
 
   return (
     <footer className={`footer ${className}`} style={footerStyle}>
-      <Typography style={{ textAlign: "center" }}>
+      <Typography>
         &copy; {currentYear} {websiteName}. All rights reserved.
       </Typography>
     </footer>
