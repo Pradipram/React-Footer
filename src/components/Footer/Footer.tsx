@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Typography } from "@mui/material";
 
 import "../../assets/styles/footer.css";
@@ -16,7 +16,12 @@ const Footer: React.FC<FooterProps> = ({
   className,
   style,
 }) => {
-  const currentYear = new Date().getFullYear();
+  const [year, setYear] = useState<number | null>(null);
+
+  useEffect(() => {
+    const currentYear = new Date().getFullYear();
+    setYear(currentYear);
+  }, []);
 
   const footerStyle: React.CSSProperties = {
     backgroundColor: bgColor,
@@ -26,7 +31,7 @@ const Footer: React.FC<FooterProps> = ({
   return (
     <div className={`footer ${className}`} style={footerStyle}>
       <Typography variant="body2">
-        &copy; {currentYear} {websiteName}. All rights reserved.
+        &copy; {year} {websiteName}. All rights reserved.
       </Typography>
     </div>
   );
