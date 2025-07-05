@@ -1,6 +1,6 @@
 {
     "name": "@p__radip/react-footer",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "This is a npm package for adding footer in your react-app",
     "main": "dist/index.js",
     "repository": {
