@@ -1,21 +1,15 @@
 import React from "react";
 import { Typography } from "@mui/material";
 
-import "../../assets/styles/footer.scss";
+import "../../assets/styles/footer.css";
 
 interface FooterProps {
   websiteName: string;
   bgColor?: string;
-  className?: string;
   style?: React.CSSProperties;
 }
 
-const Footer: React.FC<FooterProps> = ({
-  websiteName,
-  bgColor,
-  className,
-  style,
-}) => {
+const Footer: React.FC<FooterProps> = ({ websiteName, bgColor, style }) => {
   const currentYear = new Date().getFullYear();
 
   const footerStyle: React.CSSProperties = {
@@ -24,7 +18,7 @@ const Footer: React.FC<FooterProps> = ({
   };
 
   return (
-    <div className={`footer ${className}`} style={footerStyle}>
+    <div className="footer" style={footerStyle}>
       <Typography variant="body2">
         &copy; {currentYear} {websiteName}. All rights reserved.
       </Typography>
