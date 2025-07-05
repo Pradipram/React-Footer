@@ -1,16 +1,19 @@
 {
-    "compilerOptions": {
-        "jsx": "react",
-        "target": "ES5",
-        "module": "CommonJS",
-        "lib": ["DOM", "ES2015"],
-        "esModuleInterop": true,
-        "allowJs": true,
-        "strict": true,
-        "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true,
-        "declaration": true,
-        "outDir": "dist"
-    },
-    "exclude": ["node_modules", "dist"]
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "lib": ["DOM", "ES2015"],
+    "jsx": "react",
+    "declaration": true,
+    "emitDeclarationOnly": false, // ✅ optional: set to true if you want only types
+    "outDir": "dist",
+    "declarationDir": "dist",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"], // ✅ Make sure your TS files are inside /src
+  "exclude": ["node_modules", "dist"]
 }
