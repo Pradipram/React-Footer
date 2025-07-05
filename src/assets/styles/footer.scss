@@ -1,11 +1,11 @@
 .footer {
   background-color: black;
-  text-align: center;
+  text-align: center !important;
   color: white;
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 5px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
   min-height: 40px;
-  outline: 1px solid red;
+  outline: 1px solid red !important;
 }
