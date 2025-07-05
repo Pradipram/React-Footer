@@ -24,10 +24,10 @@ const Footer: React.FC<FooterProps> = ({
   };
 
   return (
-    <footer className={`footer ${className}`} style={footerStyle}>
-      {/* <Typography> */}
-      &copy; {currentYear} {websiteName}. All rights reserved.
-      {/* </Typography> */}
+    <footer>
+      <Typography className={`footer ${className}`} style={footerStyle}>
+        &copy; {currentYear} {websiteName}. All rights reserved.
+      </Typography>
     </footer>
   );
 };
